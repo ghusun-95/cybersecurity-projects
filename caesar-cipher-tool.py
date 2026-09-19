@@ -12,7 +12,6 @@ def caesar_decrypt(encrypted_message, key):
     message = encrypted_message.translate(cipher)
     return message
 
-# استخدام نصوص بالإنجليزية لتفادي خطأ الترميز
 message = input("Enter the message to encrypt: ")
 key = int(input("Enter the shift key number: "))
 
